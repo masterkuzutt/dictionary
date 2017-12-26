@@ -1,0 +1,9 @@
+4 4 4
+abacus
+banana
+candy
+yankee
+banana
+candies
+candies
+yankee

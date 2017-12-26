@@ -1,0 +1,84 @@
+delegate,entrust (a task or responsibility) to another person, typically one who is less senior than oneself
+aggregate,form or group into a class or cluster
+Introspection,the examination or observation of one's own mental and emotional processes.
+obscure,not discovered or known about; uncertain.
+preclude,prevent from happening; make impossible.
+bargained,negotiate the terms and conditions of a transaction
+transient,lasting only for a short time; impermanent.
+upshot,the final or eventual outcome or conclusion of a discussion, action, or series of events.
+deliberate,done consciously and intentionally.
+ponder,think about (something) carefully, especially before making a decision or reaching a conclusion.
+resemble,have qualities or features, especially those of appearance, in common with (someone or something); look or seem like.
+retention,the continued possession, use, or control of something.
+irrelevant,not connected with or relevant to something.
+embellish,make (something) more attractive by the addition of decorative details or features.
+denote,in sign of,indicate
+arcane,understood by few; mysterious or secret.
+presumably,used to convey that what is asserted is very likely though not known for certain
+fallback,an alternative plan that maybe used in an emergency.
+elaborate,develop or present in detail
+complementary,combining in such a way as to enhance or emphasize the qualities of each other or another.
+tangible,perceptible by touch.
+substantially,to a great or significant extent.
+defer,put off (an action or event) to a later time; postpone.
+imply,strongly suggest the truth or existence of (something not expressly stated).
+notion,a conception of or belief about something.
+mandatory,required by law or rules; compulsory.
+full-fledged,completely developed or established; of full status.
+interchangeable,(of two things) able to be interchanged,apparently identical; very similar
+disparate,essentially different in kind; not allowing comparison.
+participate,take part
+breadth,width
+exhibit,publicly display (a work of art or item of interest) in an art gallery or museum or at a trade fair.
+mangle,press or squeeze with a mangle.
+proliferation,rapid increase in numbers.
+infer,deduce or conclude (information) from evidence and reasoning rather than from explicit statements.
+unwind,
+convolute,make (an argument, story, etc.) complex and difficult to follow.
+transitive,able to take a direct object|such that, if it applies between successive members of a sequence, it must also apply between any two members taken in order. For instance, if A is larger than B, and B is larger than C, then A is larger than C.
+segue,an uninterrupted transition from one piece of music or film scene to another.
+marginal,relating to or situated at the edge or margin of something.
+caveat,a warning or proviso of specific stipulations, conditions, or limitations.
+ethereal,extremely delicate and light in a way that seems too perfect for this world.
+opt,make a choice from a range of possibilities.
+derive,obtain something from (a specified source).
+profound,(of a state, quality, or emotion) very great or intense.
+mandate,an official order or commission to do something.
+stem,originate in or be caused by.
+subsume,include or absorb (something) in something else.
+disinclined,unwilling; reluctant.
+parrot,repeat mechanically.
+conundrum,a confusing and difficult problem or question.
+aggravate,make (a problem, injury, or offense) worse or more serious.
+rationale,a set of reasons or a logical basis for a course of action or a particular belief.
+repercussion,an unintended consequence occurring some time after an event or action, especially an unwelcome one.
+implication,the conclusion that can be drawn from something, although it is not explicitly stated.
+wholly,entirely; fully.
+obviate,remove (a need or difficulty).avoid; prevent.
+apparently,as far as one knows or can see.
+divergence,the process or state of divergin([separate from another route).
+incorporate,take in or contain (something) as part of a whole; include.
+dichotomy,a division or contrast between two things that are or are represented as being opposed or entirely different.
+ramification,a consequence of an action or event, especially when complex or unwelcome.
+pan out,to develop in a particular way or in a successful way
+incarnation,a person who embodies in the flesh a deity, spirit, or abstract quality.
+subvert,undermine the power and authority of (an established system or institution).
+insulate,protect (something) by interposing material that prevents the loss of heat or the intrusion of sound.
+exhibit,publicly display (a work of art or item of interest) in an art gallery or museum or at a trade fair.
+accommodate,(of physical space, especially a building) provide lodging or sufficient space for.
+demystify,make (a difficult or esoteric subject) clearer and easier to understand.
+call on to,
+intersect,
+straddle,
+condidate,
+bear,
+resemblance,
+foster,
+incur,
+subjective,
+compell,
+liken,
+apt,
+akin,
+diluted,
+tap into,to manage to use something in a way that brings good results:If only we could tap into all that energy and creativity.
