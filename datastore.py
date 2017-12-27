@@ -31,10 +31,10 @@ class AbstractDataStore(metaclass=abc.ABCMeta):
     def delete(self,word):
         pass
 
-class PcklDataStore(AbstractDict):
+class PcklDataStore(AbstractDataStore):
 
     pkl = 'default.pkl'
-            
+
     def load(self,src):
         if isinstance(src, str):
             # [TODO] this section is for import text file. it should be removed
@@ -47,20 +47,25 @@ class PcklDataStore(AbstractDict):
             [ print(x.word) for x in self.dict ]
 
         else:
-            with open(Dict.pkl,mode="rb") as f :
+            with open(PcklDataStore.pkl,mode="rb") as f :
                 while 1:
                     try:
                         self.dict.append( pickle.load(f))
                     except EOFError:
                         break
 
-    def save(self,dst=Dict.pkl):
+    def save(self,dst=None):
+        if dst == None:
+            dst = PcklDataStore.pkl
+
         with open(dst, mode="wb") as f:
             for data in self.dict:
                 pickle.dump(data, f)
 
-    def insert(self,word, type=None, discription=None,example=None,date=dt.now()):
-        data = DictData(word,type,discription,example,date)
+    def update(self,word,data):
+        pass
+
+    def insert(self,data):
         self.dict.append(data)
 
     def delete(self,word):
@@ -68,9 +73,7 @@ class PcklDataStore(AbstractDict):
             if data.word == word:
                 self.dict.pop(index)
 
-    def update(self,word,data):
-        # [TODO] not yet implemented
-        pass
+
 
 class DictData(object):
     def __init__(self,word, type=None, discription=None,example=None,date=dt.now()):
@@ -82,10 +85,11 @@ class DictData(object):
         self.last_update = date
 
 def main():
-    dict_filepath = None
+    
     test = PcklDataStore()
-    test.load(dict_filepath)
-    test.delete("hoge")
+    test.insert()
+    test.update()
+    test.delete()
     
     
 
