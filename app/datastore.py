@@ -31,33 +31,29 @@ class AbstractDataStore(metaclass=abc.ABCMeta):
     def delete(self,word):
         pass
 
-class PcklDataStore(AbstractDataStore):
+class PcklDataStore(AbstractDataStore): 
 
-    pkl = 'default.pkl'
+    def load(self,src='default.pkl' ):
+        with open(src,mode="rb+") as f :
+            while 1:
+                try:
+                    self.dict.append( pickle.load(f))
+                except EOFError:
+                    break
+        return True
 
-    def load(self,src):
-        if isinstance(src, str):
-            # [TODO] this section is for import text file. it should be removed
-            pt = re.compile(r"^([a-zA-Z\s\-]+),(.*)$")
-            with open ( filepath, "r") as f:
-                for li in f:
-                    mt = re.match(pt, li.rstrip())
-                    data = DictData(mt.group(1),None,mt.group(2))
-                    self.dict.append(data)
-            [ print(x.word) for x in self.dict ]
+    def convert_from_csv(self,src):
+        pass
+        # [TODO] this section is for import text file. it should be removed
+        # pt = re.compile(r"^([a-zA-Z\s\-]+),(.*)$")
+        # with open ( filepath, "r") as f:
+        #     for li in f:
+        #         mt = re.match(pt, li.rstrip())
+        #         data = DictData(mt.group(1),None,mt.group(2))
+        #         self.dict.append(data)
+        # [ print(x.word) for x in self.dict ]
 
-        else:
-            with open(PcklDataStore.pkl,mode="rb") as f :
-                while 1:
-                    try:
-                        self.dict.append( pickle.load(f))
-                    except EOFError:
-                        break
-
-    def save(self,dst=None):
-        if dst == None:
-            dst = PcklDataStore.pkl
-
+    def save(self,dst='default.pkl'):
         with open(dst, mode="wb") as f:
             for data in self.dict:
                 pickle.dump(data, f)
